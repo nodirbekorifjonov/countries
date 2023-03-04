@@ -7,8 +7,8 @@ module.exports = {
   mode: "production", //development
   // entry
   entry: {
-    main: path.resolve(__dirname, "src/js/main.js"),
-    about: path.resolve(__dirname, "src/js/about.js"),
+    main: path.resolve(__dirname, "./src/js/main.js"),
+    about: path.resolve(__dirname, "./src/js/about.js"),
   },
   // output
   output: {
